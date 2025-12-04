@@ -93,7 +93,7 @@ def main(page: ft.Page):
 
     # Background Image
     bg = ft.Image(
-        src="solar_bg.jpg",
+        src=resource_path("solar_bg.jpg"),
         fit=ft.ImageFit.FILL,
         width=float("inf"),
         height=float("inf")
