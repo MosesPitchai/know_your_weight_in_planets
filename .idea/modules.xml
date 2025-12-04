@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/KnowYourWeight.iml" filepath="$PROJECT_DIR$/.idea/KnowYourWeight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WeightInPlanets/.idea/WeightInPlanets.iml" filepath="$PROJECT_DIR$/../WeightInPlanets/.idea/WeightInPlanets.iml" />
+    </modules>
+  </component>
+</project>
