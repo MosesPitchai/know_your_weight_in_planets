@@ -49,6 +49,10 @@ for:
   matrix:
     only:
     - image: macOS
+    
+  build_script:
+  - flet pack main.py --name KnowYourWeight --icon icon.png --product-name KnowYourWeight --product-version "1.0" --copyright "Copyright (c) 2022 Trichy Astro Club"
+  - pyinstaller main.py --onefile --add-data "solar_bg.jpg:."
 
   after_build:
   - tar -czvf counter-macos.tar.gz -C dist counter.app
@@ -63,6 +67,10 @@ for:
   matrix:
     only:
     - image: Ubuntu
+
+    build_script:
+  - flet pack main.py --name KnowYourWeight --icon icon.png --product-name KnowYourWeight --product-version "1.0" --copyright "Copyright (c) 2022 Trichy Astro Club"
+  - pyinstaller main.py --onefile --add-data "solar_bg.jpg:."
 
   after_build:
   - tar -czvf counter-linux.tar.gz -C dist counter
